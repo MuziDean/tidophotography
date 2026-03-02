@@ -5,15 +5,15 @@
   "engines": {
     "node": ">=20.0.0",
     "npm": ">=10.0.0"
-},
+  },
   "scripts": {
     "dev": "vite --port=3000 --host=0.0.0.0",
     "build": "vite build",
-    "preview": "vite preview --port 3000 --host",
-    "preview:prod": "set PORT=3000 && vite preview --port %PORT% --host",
+    "preview": "vite preview --port $PORT --host",
+    "preview:prod": "vite preview --port $PORT --host",
     "clean": "rm -rf dist",
     "lint": "tsc --noEmit",
-    "start": "vite preview --port 3000 --host"
+    "start": "vite preview --port $PORT --host"
   },
   "dependencies": {
     "@google/genai": "^1.29.0",
