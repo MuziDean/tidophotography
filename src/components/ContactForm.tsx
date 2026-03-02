@@ -80,11 +80,12 @@ export default function ContactForm() {
             className="w-full bg-transparent border-b border-crimson/20 py-3 focus:border-crimson outline-none transition-colors text-ink appearance-none"
           >
             <option value="" className="bg-paper">Select Type</option>
-            <option value="wedding" className="bg-paper">Luxury Wedding</option>
-            <option value="portrait" className="bg-paper">Portrait Session</option>
-            <option value="commercial" className="bg-paper">Commercial / Brand</option>
-            <option value="editorial" className="bg-paper">Editorial / Fashion</option>
-            <option value="matric" className="bg-paper">Matric Dance</option>
+            <option value="weddings" className="bg-paper">Weddings</option>
+            <option value="graduation" className="bg-paper">Graduation</option>
+            <option value="matric dance" className="bg-paper">Matric Dance</option>
+            <option value="christmas" className="bg-paper">Christmas</option>
+            <option value="real estate" className="bg-paper">Real Estate</option>
+            <option value="street photography" className="bg-paper">Street Photography</option>
           </select>
           {errors.eventType && <p className="text-red-600 text-[10px] uppercase tracking-widest">{errors.eventType.message}</p>}
         </div>

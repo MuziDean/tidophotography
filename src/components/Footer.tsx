@@ -15,13 +15,24 @@ export default function Footer() {
             available worldwide.
           </p>
           <div className="flex gap-4">
-            <a href="#" className="w-10 h-10 rounded-full border border-crimson/20 flex items-center justify-center text-white/60 hover:border-crimson hover:text-crimson transition-all">
+            <a 
+              href="https://www.instagram.com/tidophotography_za/p/DUpTX4BCAxz/?hl=en" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="w-10 h-10 rounded-full border border-crimson/20 flex items-center justify-center text-white/60 hover:border-crimson hover:text-crimson transition-all"
+            >
               <Instagram className="w-5 h-5" />
             </a>
-            <a href="#" className="w-10 h-10 rounded-full border border-crimson/20 flex items-center justify-center text-white/60 hover:border-crimson hover:text-crimson transition-all">
+            <a 
+              href="#" 
+              className="w-10 h-10 rounded-full border border-crimson/20 flex items-center justify-center text-white/60 hover:border-crimson hover:text-crimson transition-all"
+            >
               <Facebook className="w-5 h-5" />
             </a>
-            <a href="mailto:hello@tidophotography.co.za" className="w-10 h-10 rounded-full border border-crimson/20 flex items-center justify-center text-white/60 hover:border-crimson hover:text-crimson transition-all">
+            <a 
+              href="mailto:info@tidophotography.co.za" 
+              className="w-10 h-10 rounded-full border border-crimson/20 flex items-center justify-center text-white/60 hover:border-crimson hover:text-crimson transition-all"
+            >
               <Mail className="w-5 h-5" />
             </a>
           </div>
@@ -47,7 +58,7 @@ export default function Footer() {
             </li>
             <li className="flex items-center gap-3">
               <Mail className="w-5 h-5 text-crimson shrink-0" />
-              <span>hello@tidophotography.co.za</span>
+              <span>info@tidophotography.co.za</span>
             </li>
           </ul>
         </div>
