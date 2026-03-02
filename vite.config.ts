@@ -21,7 +21,7 @@ export default defineConfig(({ mode }) => {
       hmr: process.env.DISABLE_HMR !== 'true',
     },
     preview: {
-      port: process.env.PORT ? parseInt(process.env.PORT) : 3000, // Use Railway's PORT
+      port: process.env.PORT ? parseInt(process.env.PORT) : 3000,
       host: true,
       allowedHosts: true
     },
@@ -33,7 +33,7 @@ export default defineConfig(({ mode }) => {
         output: {
           manualChunks: {
             vendor: ['react', 'react-dom', 'react-router-dom'],
-            ui: ['lucide-react', 'motion', '@hookform/resolvers', 'react-hookform'],
+            ui: ['lucide-react', 'motion', '@hookform/resolvers', 'react-hook-form'], // Fixed typo here
           },
         },
       },
